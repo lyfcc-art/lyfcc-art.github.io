@@ -22,7 +22,8 @@ main_slider:
 该剧根据关汉卿元杂剧《赵盼儿风月救风尘》改编，讲述了赵盼儿、宋引章、孙三娘经历各种困境，携手勇闯东京，并在皇城司指挥使顾千帆的帮助下，最终姐妹齐心，通过自己的努力将小茶坊变成东京最大酒楼的故事。
       "
       link: "/portfolio/blue-denim/"
-      image: "images/started-n15-1920x1080.jpg"
+      image: images/meng/cover.jpg
+      # image: "images/started-n15-1920x1080.jpg"
 
     - title: "神雕侠侣"
       subtitle: "TV Show"
