@@ -13,7 +13,7 @@ main_slider:
         《花木兰》（英语：Mulan）是一部2020年美国古装战争动作电影，由妮基·卡罗执导，伊丽莎白·马丁、劳伦·海内克、里克·杰法及阿曼达·西尔沃编剧。该片由华特迪士尼影片公司出资制作，为1998年同名动画电影的真人翻拍版，其内容改编自中国民间传说，主要描述一位名为花木兰的女子代父从军的巾帼英雄故事。主角花木兰由刘亦菲饰演，亦包括甄子丹、李截、安柚鑫、巩俐和李连杰等人演出。
       "
       link: "/portfolio/mulan/"
-      image: "images/started-n26-1920x1080.jpg"
+      image: "images/mulan/cover.jpg"
 
     - title: "梦华录"
       subtitle: "TV Show"
@@ -21,7 +21,7 @@ main_slider:
         《梦华录》是由杨阳执导，刘亦菲、陈晓、柳岩、林允领衔主演，徐海乔、代旭、张晓谦主演，王洛勇、保剑锋特邀主演，姚安濂、杜玉明、刘亚津、刘伟等联合出演的女性古装励志剧，于2022年6月2日在腾讯视频播出。
 该剧根据关汉卿元杂剧《赵盼儿风月救风尘》改编，讲述了赵盼儿、宋引章、孙三娘经历各种困境，携手勇闯东京，并在皇城司指挥使顾千帆的帮助下，最终姐妹齐心，通过自己的努力将小茶坊变成东京最大酒楼的故事。
       "
-      link: "/portfolio/blue-denim/"
+      link: "/portfolio/menghualu/"
       image: images/meng/cover.jpg
       # image: "images/started-n15-1920x1080.jpg"
 
@@ -31,33 +31,41 @@ main_slider:
        《神雕侠侣》（英语：The Return of the Condor Heroes）是一部2006年首播的中国大陆古装武侠剧，改编自香港著名作家金庸所著同名武侠小说《神雕侠侣》。该剧由北京慈文影视制作有限公司出品，知名导演于敏执导，著名电视制片人张纪中制作，并由黄晓明、刘亦菲、王洛勇、孔琳、孟广美、陈紫函、杨幂等主演[1]。
       "
       link: "/portfolio/the-dance/"
-      image: "images/started-n15-1920x1080.jpg"
+      image: "images/long/cover2.jpg"
+
+    - title: "仙剑奇侠传"
+      subtitle: "TV Show"
+      description: "
+        中国仙侠剧的开端和巅峰
+      "
+      link: "/portfolio/ling/"
+      image: 'images/ling/ling.jpg'
 
 ### Grid Slider [ gridSlider ]
 grid_slider:
   enable: true
   slides:
-    - title: "Astronaut"
+    - title: "天龙八部"
       subtitle: "photo"
       link: "/portfolio/astronaut/"
       image: "images/started-n12-900x1170.jpg"
 
-    - title: "The Dance"
+    - title: "神雕侠侣"
       subtitle: "ui/ux"
       link: "/portfolio/the-dance/"
       image: "images/started-n2_4-900x600.jpg"
 
-    - title: "Blue denim"
-      subtitle: "branding"
-      link: "/portfolio/blue-denim/"
-      image: "images/started-n15-900x600.jpg"
+    - title: "梦华录"
+      subtitle: "TV"
+      link: "/portfolio/menghualu/"
+      image: "images/menghualu/cover-1.jpg"
 
-    - title: "Melanin Goddess"
+    - title: "仙剑奇侠传"
       subtitle: "photography"
       link: "/portfolio/melanin-goddess/"
       image: "images/started-n19-900x900.jpg"
 
-    - title: "Negative space"
+    - title: "金粉世家"
       subtitle: "art"
       link: "/portfolio/negative-space/"
       image: "images/started-n14_1-900x1080.jpg"
