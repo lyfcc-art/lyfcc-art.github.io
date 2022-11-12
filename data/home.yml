@@ -41,8 +41,8 @@ main_slider:
       link: "/portfolio/ling/"
       image: 'images/ling/ling.jpg'
 
-### Grid Slider [ gridSlider ]
-grid_slider:
+### blur Slider [ blurSlider ]
+blur_slider:
   enable: true
   slides:
     - title: "天龙八部"
@@ -55,8 +55,8 @@ grid_slider:
       link: "/portfolio/the-dance/"
       image: "images/started-n2_4-900x600.jpg"
 
-    - title: "梦华录"
-      subtitle: "TV"
+    - title: "东京梦华录"
+      subtitle: "电视"
       link: "/portfolio/menghualu/"
       image: "images/menghualu/cover-1.jpg"
 
@@ -70,62 +70,80 @@ grid_slider:
       link: "/portfolio/negative-space/"
       image: "images/started-n14_1-900x1080.jpg"
 
-### Half Slider [ halfSlider ]
+### half Slider [ halfSlider ]
 half_slider:
   enable: true
   slides:
-    - title: "Melanin <br>Goddess"
-      subtitle: "branding"
+    - title: "神雕侠侣"
+      subtitle: "TV"
       description: "
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        知名导演于敏执导，著名电视制片人张纪中制作，并由黄晓明、刘亦菲、王洛勇、孔琳、孟广美、陈紫函、杨幂等主演[1]。与之前的诸多改编版本不同，本剧基于2003年出版的世纪新修版拍摄。剧情上承接《射雕英雄传》，以南宋末年为背景，讲述了杨康之子杨过从小叛逆，在叛出师门后被小龙女收留为徒，两人随后历经种种磨难暗生情愫，虽面临世俗众人的压力仍打破封建桎梏结为连理，最终在修得一身绝世武功的同时成为一对神仙眷侣。 .
       "
       link: "/portfolio/melanin-goddess/"
-      image: "images/started-n19-1080x1080.jpg"
+      image: "images/long/long-piant-1080x1080.jpg"
 
-    - title: "Astronaut"
-      subtitle: "photo"
+    - title: "梦华录"
+      subtitle: "TV"
       description: "
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+       《梦华录》（英语：A Dream of Splendor），为据关汉卿原著《赵盼儿风月救风尘》改编的2022年中国大陆古装剧。由杨阳执导，张巍编剧，刘亦菲、陈晓、柳岩、林允、徐海乔、代旭 领衔主演。.
       "
       link: "/portfolio/astronaut/"
-      image: "images/started-n12-1000x1080.jpg"
+      image: "images/meng/cover-1080x1080.jpg"
 
-    - title: "The Dance"
-      subtitle: "art"
+    - title: "天龙八部"
+      subtitle: "TV"
       description: "
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        该剧由江苏广播电视总台和九洲音像出版公司联合摄制，知名导演周晓文、鞠觉亮、于敏、赵箭联合执导，著名电视制片人张纪中制作，并由胡军、林志颖、高虎、刘亦菲、陈好、刘涛等领衔主演。本剧与之前的诸多改编版本一样基于小说第二版（大陆称为三联版）拍摄，全剧以北宋时期为背景，讲述了丐帮帮主乔峰、大理国王子段誉、少林寺弟子虚竹三人因缘际会之下结义为兄弟，在经历了诸多事变之后，乔峰发现了自己的身世秘密，为阻止辽国伐宋而自尽；本不喜拳脚的段誉练成一身绝世武功，在父母双亡后回国继承皇位；虚竹则获多位前辈高人传授武功，脱离少林后成为西夏驸马和逍遥派掌门.
       "
       link: "/portfolio/the-dance/"
-      image: "images/started-n2_4-1080x1080.jpg"
+      image: "images/yan/cover-square.jpg"
 
-    - title: "Blue denim"
-      subtitle: "branding"
+    - title: "仙剑奇侠传"
+      subtitle: "TV"
       description: "
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        胡歌、刘亦菲、安以轩、刘品言、彭于晏领衔主演。全剧讲述余杭镇盛渔村出身的男主人公李逍遥因机缘巧合结识流落中原的南诏公主赵灵儿，在护送其回苗疆寻母的旅途中斩妖除魔、历经艰险，最终合力击败控制南诏国的拜月教主，解救了国家和人民.
       "
       link: "/portfolio/blue-denim/"
-      image: "images/started-n15-1080x1080.jpg"
+      image: "images/ling/cover-1080x1080.jpg"
 
 ### Disp Slider [ dispSlider ]
 disp_slider:
   enable: true
   slides:
-    - title: "Astronaut"
-      subtitle: "photo"
-      link: "/portfolio/astronaut/"
-      image: "images/started_new-1920x1080.jpg"
+    - title: "Mulan"
+      subtitle: "moive"
+      link: "/portfolio/mulan/"
+      image: "images/mulan/cover-1920x1080.jpg"
 
-    - title: "The Dance"
+    - title: "鸿门宴"
       subtitle: "art"
       link: "/portfolio/the-dance/"
-      image: "images/started-n2_4-1920x1080.jpg"
+      image: "images/hmy/cover-1920x1080.jpg"
 
-    - title: "Melanin <br>Goddess"
+
+    - title: "三生三世十里桃花"
+      subtitle: "Moive"
+      link: "/portfolio/4s/"
+      image: "images/ssss/cover-1920x1080.jpg"
+
+    - title: "二代妖精"
+      subtitle: "art"
+      link: "/portfolio/the-dance/"
+      image: "images/yao/cover.jpg"
+
+    - title: "烽火芳菲"
+      subtitle: "art"
+      link: "/portfolio/the-dance/"
+      image: "images/feng/cover.jpg"
+
+
+
+    - title: "功夫之王"
       subtitle: "branding"
       link: "/portfolio/melanin-goddess/"
-      image: "images/started-n26-1920x1080.jpg"
+      image: "images/king/cover.jpg"
 
-    - title: "Mulan"
+    - title: "致青春"
       subtitle: "Branding"
       link: "/portfolio/blue-denim/"
-      image: "images/started-n15-1920x1080.jpg"
+      image: "images/zhi/cover-1920x1080.jpg"

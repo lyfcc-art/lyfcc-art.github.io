@@ -18,31 +18,25 @@ DefaultContentLanguage = "en"
   [[menu.main]]
     identifier = "home-parallax"
     parent = "home"
-    name = "Parallax Slider"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "home-grid"
-    parent = "home"
-    name = "Grid Slider"
-    url = "/home-grid/"
-    weight = 2
+    name = "音乐"
+    url = "/home-blur"
+    weight = 6
   [[menu.main]]
     identifier = "home-half"
     parent = "home"
-    name = "Half Slider"
+    name = "电视"
     url = "/home-half/"
     weight = 3
   [[menu.main]]
     identifier = "home-blur"
     parent = "home"
-    name = "Blur Slider"
+    name = "代言"
     url = "/home-blur/"
     weight = 4
   [[menu.main]]
     identifier = "home-disp"
     parent = "home"
-    name = "Distortion Slider"
+    name = "电影"
     url = "/home-disp/"
     weight = 5
 [[menu.main]]
