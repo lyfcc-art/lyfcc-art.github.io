@@ -1,5 +1,5 @@
 ---
-title: Home Grid
+title: Home Moive
 builder: true
 sections:
   - gridSlider

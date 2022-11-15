@@ -19,13 +19,13 @@ DefaultContentLanguage = "en"
     identifier = "home-parallax"
     parent = "home"
     name = "音乐"
-    url = "/home-blur"
+    url = "/home-music"
     weight = 6
   [[menu.main]]
     identifier = "home-half"
     parent = "home"
     name = "电视"
-    url = "/home-half/"
+    url = "/home-tv/"
     weight = 3
   [[menu.main]]
     identifier = "home-blur"
@@ -34,10 +34,10 @@ DefaultContentLanguage = "en"
     url = "/home-blur/"
     weight = 4
   [[menu.main]]
-    identifier = "home-disp"
+    identifier = "home-moive"
     parent = "home"
     name = "电影"
-    url = "/home-disp/"
+    url = "/home-moive/"
     weight = 5
 [[menu.main]]
   identifier = "about"
@@ -80,8 +80,8 @@ DefaultContentLanguage = "en"
 # Main Settings
 [params]
 dateFormat = "January 2, 2006"
-authorName = "Federico Ober"
-disqusComments = "test" #YOUR DISQUS COMMENTS SHORTNAME
+authorName = "CC Fans"
+disqusComments = "" #YOUR DISQUS COMMENTS SHORTNAME
 formspreeURL = "" #YOUR FORMSPREE URL
 googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 

@@ -1,5 +1,5 @@
 ---
-title: Home Half
+title: Home TV
 builder: true
 sections:
   - halfSlider

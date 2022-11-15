@@ -6,7 +6,7 @@
 ### Parallax [parallaxSection]
 parallax:
   enable: 1
-  image: "/images/about2.jpg"
+  image: "/images/about/quo.jpg"
 
 ### Description [ descriptionSection ]
 description:
@@ -69,7 +69,7 @@ list:
 video:
   enable: 1
   image: "/images/started-n7.jpg"
-  video_id: "Gu6z6kIukgg"
+  video_id: "INLUSDEftLc"
 
 ### Team [ teamSection ]
 team:

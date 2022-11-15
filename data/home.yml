@@ -41,36 +41,66 @@ main_slider:
       link: "/portfolio/ling/"
       image: 'images/ling/ling.jpg'
 
-### blur Slider [ blurSlider ]
-blur_slider:
+
+
+### Grid Slider [ gridSlider ]
+grid_slider:
   enable: true
   slides:
-    - title: "天龙八部"
-      subtitle: "photo"
-      link: "/portfolio/astronaut/"
-      image: "images/started-n12-900x1170.jpg"
+    - title: "Mulan"
+      subtitle: "moive"
+      link: "/portfolio/mulan/"
+      image: "images/mulan/cover-864x1280.jpg"
 
-    - title: "神雕侠侣"
-      subtitle: "ui/ux"
-      link: "/portfolio/the-dance/"
-      image: "images/started-n2_4-900x600.jpg"
+    - title: "三生三世十里桃花"
+      subtitle: "moive"
+      link: "/portfolio/4s/"
+      image: "images/ssss/cover-1080x1727.jpg"
 
-    - title: "东京梦华录"
-      subtitle: "电视"
-      link: "/portfolio/menghualu/"
-      image: "images/menghualu/cover-1.jpg"
+    - title: "Blue denim"
+      subtitle: "branding"
+      link: "/portfolio/blue-denim/"
+      image: "images/started-n15-900x600.jpg"
 
-    - title: "仙剑奇侠传"
+    - title: "Melanin Goddess"
       subtitle: "photography"
       link: "/portfolio/melanin-goddess/"
       image: "images/started-n19-900x900.jpg"
 
-    - title: "金粉世家"
+    - title: "Negative space"
       subtitle: "art"
       link: "/portfolio/negative-space/"
       image: "images/started-n14_1-900x1080.jpg"
 
+
+
+### blur Slider [ blurSlider ]
+blur_slider:
+  enable: true
+  slides:
+    - title: "LV"
+      subtitle: "photo"
+      link: "/portfolio/astronaut/"
+      image: "images/started-n12-900x1170.jpg"
+
+    - title: "创维"
+      subtitle: "ui/ux"
+      link: "/portfolio/the-dance/"
+      image: "images/started-n2_4-900x600.jpg"
+
+    - title: "资生堂"
+      subtitle: "电视"
+      link: "/portfolio/menghualu/"
+      image: "images/menghualu/cover-1.jpg"
+
+    - title: "天梭"
+      subtitle: "photography"
+      link: "/portfolio/melanin-goddess/"
+      image: "images/started-n19-900x900.jpg"
+
+
 ### half Slider [ halfSlider ]
+### 电视相关
 half_slider:
   enable: true
   slides:
@@ -87,7 +117,7 @@ half_slider:
       description: "
        《梦华录》（英语：A Dream of Splendor），为据关汉卿原著《赵盼儿风月救风尘》改编的2022年中国大陆古装剧。由杨阳执导，张巍编剧，刘亦菲、陈晓、柳岩、林允、徐海乔、代旭 领衔主演。.
       "
-      link: "/portfolio/astronaut/"
+      link: "/portfolio/menghualu/"
       image: "images/meng/cover-1080x1080.jpg"
 
     - title: "天龙八部"
