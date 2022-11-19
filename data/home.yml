@@ -57,15 +57,15 @@ grid_slider:
       link: "/portfolio/4s/"
       image: "images/ssss/cover-1080x1727.jpg"
 
-    - title: "Blue denim"
-      subtitle: "branding"
+    - title: "鸿门宴传奇"
+      subtitle: "moive"
       link: "/portfolio/blue-denim/"
-      image: "images/started-n15-900x600.jpg"
+      image: "images/yuji/cover-1066x1600.JPG"
 
-    - title: "Melanin Goddess"
-      subtitle: "photography"
-      link: "/portfolio/melanin-goddess/"
-      image: "images/started-n19-900x900.jpg"
+    - title: "恋爱通告"
+      subtitle: "moive"
+      link: "/portfolio/love-in-disguise/"
+      image: "images/qing/cover-1000x1261.JPG"
 
     - title: "Negative space"
       subtitle: "art"
@@ -140,12 +140,12 @@ half_slider:
 disp_slider:
   enable: true
   slides:
-    - title: "Mulan"
-      subtitle: "moive"
-      link: "/portfolio/mulan/"
-      image: "images/mulan/cover-1920x1080.jpg"
+    - title: "Reflection"
+      subtitle: "music"
+      link: "/portfolio/reflection/"
+      image: "images/music/cover-1-1920x1080.JPG"
 
-    - title: "鸿门宴"
+    - title: "鸿门宴传奇"
       subtitle: "art"
       link: "/portfolio/the-dance/"
       image: "images/hmy/cover-1920x1080.jpg"

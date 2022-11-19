@@ -29,19 +29,36 @@ description1:
 gallery:
   enable: true
   images:
-    - images/started-n15-920x1080.jpg
-    - images/started-n12-920x1080.jpg
+    - images/meng/lan-1080x1619.jpg
+    - images/meng/cover-1080x1619.jpg
 
 description2:
   enable: true
-  title: Result
-  text: "<p>It is not enough that we build products that function, that are understandable and usable, we also need to build products that bring joy and excitement, pleasure and fun, and, yes, beauty to people’s lives. Creativity is to discover a question that has never been asked. If one brings up an idiosyncratic question, the answer he gives will necessarily be unique as well.</p><p>Creativity is to discover a question that has never been asked. If one brings up an idiosyncratic question, the answer he gives will necessarily be unique as well.</p>"
+  title: 成绩
+  text: "<p>
+  豆瓣小组讨论量影视剧历史第一 <br>
+  豆瓣评分人数女星一番/女性题材历史第一 <br>
+  V榜峰值三年内第一 <br>
+  骨朵热度近三年古偶第一 <br>
+  猫眼热度两年内第一 <br>
+  猫眼热度在榜天数破纪录 <br>
+  刘亦菲Bilibili精选视频数量第一，数据增量第一 <br>
+  2022年新华•文化产业IP指数影视类第一 <br>
+  2022年豆瓣评分人数在播期第一 <br>
+  2022年德塔文峰值，均值第一 <br>
+  2022年V榜均值，破9次数第一 <br>
+  2022年百度峰值，刘亦菲个人峰值第一 <br>
+  2022年美兰德日峰值，月融值第一 <br>
+  2022年微博剧集指数冠军 <br>
+  2022年收视中国观众平均观看时长第一 <br>
+  <p>
+  "
 
 carousel:
   enable: true
   images:
-    - images/started-n14.jpg
-    - images/started-n2_4.jpg
-    - images/started-n20.jpg
+    - images/meng/pan-1-3000x2000.JPG
+    - images/meng/pan-2-3000x2000.JPG
+    - images/meng/pan-3-3000x2000.JPG
 
 ---

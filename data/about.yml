@@ -11,12 +11,15 @@ parallax:
 ### Description [ descriptionSection ]
 description:
   enable: 1
-  title: "We are startup<br />digital agency"
+  title: "关于"
   column1: "
-    A Los Angeles based studio building handcrafted websites and brands for companies and all over the world. It is not enough that we build products that function, that are understandable and usable, we also need to build products that bring joy and excitement, pleasure and fun, and, yes, beauty to people’s lives. Creativity is to discover a question that has never been asked. If one brings up an idiosyncratic questionl.
-  "
+很多时候，我在看到她的照片或视频的时候，心里并没有去想她到底有多美。从少年时期就喜欢上的人，这么久的时间，好像一切都太熟悉了。只是偶尔，当我无所事事的时候，偶然间会看到一张很日常的照片，才会突然意识到，她是真真切切地存在，并且是这样美的不可方物。
+     "
   column2: "
-    The development of digital marketing is inseparable from technology development. One of the first key events happened in 1971, when Ray Tomlinson sent the first email, and his technology set the platform to allow people to send and receive files through different machines. However, the more recognizable period as being the start of Digital Marketing is 1990 as this was where the Archie search engine was created as an index for FTP sites.
+  夫人之相与，俯仰一世。这个地方或者就是当下那个最适合“因寄所拖”的存在了。我觉得自己很幸运，朋友来来去去，但有这么一个比我优秀，可以让我仰望的存在。我想记录这一切，因为这是一件很让人开心的事情。或许也是能让很多类似我的人开心的事情。
+
+青山一道同风雨，明月何曾是两乡。
+
   "
 
 ### Services [ servicesSection ]

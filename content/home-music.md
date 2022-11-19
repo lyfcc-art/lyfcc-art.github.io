@@ -1,5 +1,5 @@
 ---
-title: Home Half
+title: Home Music
 builder: true
 sections:
   - dispSlider
