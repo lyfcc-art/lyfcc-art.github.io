@@ -1,6 +1,6 @@
 # General Settings
 title = "刘亦菲"
-baseURL = "https://lyfcc-art.github.io" #YOUR SITE URL
+baseURL = "https://lyfcc.art" #YOUR SITE URL
 languageCode = "en-us"
 theme = "aster"
 resourceDir = "resources"
@@ -12,83 +12,57 @@ DefaultContentLanguage = "en"
 [menu]
 [[menu.main]]
   identifier = "home"
-  name = "主页"
+  name = "作品"
   url = "/"
   weight = 1
   [[menu.main]]
     identifier = "home-parallax"
     parent = "home"
-    name = "Parallax Slider"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "home-grid"
-    parent = "home"
-    name = "Grid Slider"
-    url = "/home-grid/"
-    weight = 2
+    name = "音乐"
+    url = "/home-music"
+    weight = 4
   [[menu.main]]
     identifier = "home-half"
     parent = "home"
-    name = "Half Slider"
-    url = "/home-half/"
+    name = "电视"
+    url = "/home-tv/"
     weight = 3
+
+  [[menu.main]]
+    identifier = "home-moive"
+    parent = "home"
+    name = "电影"
+    url = "/home-movie/"
+    weight = 2
   [[menu.main]]
     identifier = "home-blur"
-    parent = "home"
-    name = "Blur Slider"
+    name = "代言"
     url = "/home-blur/"
-    weight = 4
-  [[menu.main]]
-    identifier = "home-disp"
-    parent = "home"
-    name = "Distortion Slider"
-    url = "/home-disp/"
     weight = 5
 [[menu.main]]
   identifier = "about"
   name = "关于"
   url = "/about/"
-  weight = 2
-[[menu.main]]
-  identifier = "works"
-  name = "作品"
-  url = "/portfolio/"
-  weight = 3
-  [[menu.main]]
-    identifier = "works-grid"
-    parent = "works"
-    name = "作品"
-    url = "/portfolio/"
-    weight = 1
+  weight = 8
   [[menu.main]]
     identifier = "works-gallery"
-    parent = "works"
     name = "图集"
     url = "/gallery/"
-    weight = 2
-[[menu.main]]
-  identifier = "contact"
-  name = "Contact"
-  url = "/contact/"
-  weight = 4
+    weight = 6
+
 [[menu.main]]
   identifier = "blog"
-  name = "文章"
+  name = "博文"
   url = "/blog/"
-  weight = 5
-[[menu.main]]
-  identifier = "contact"
-  name = "联络"
-  url = "/contact/"
-  weight = 6
+  weight = 7
+
 
 # Main Settings
 [params]
 dateFormat = "January 2, 2006"
-authorName = "Federico Ober"
-disqusComments = "test" #YOUR DISQUS COMMENTS SHORTNAME
-formspreeURL = "" #YOUR FORMSPREE URL
+authorName = "CC Fans"
+disqusComments = "" #YOUR DISQUS COMMENTS SHORTNAME
+formspreeURL = "https://formspree.io/f/hang.yan@hotmail.com" #YOUR FORMSPREE URL
 googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 
 # Preloader Settings
@@ -102,12 +76,10 @@ logo = "images/logo.png"
 # Footer Settings
 [params.footer]
 copyright = "Copyright © 2022 涯余"
-col1_title = "Address:"
-col1_text = "Ridgewood Queens,<br/>NY 11385, USA"
-col2_title = "Follow Us:"
-col2_text = ""
-col3_title = "Get in touch:"
-col3_text = "fakename@domain.com<br/>+012 (234) 567 78"
+
+
+col3_title = "联系"
+col3_text = "lyfcc_art@163.com"
 
 # Social Settings
 [[params.social]]
@@ -118,18 +90,16 @@ weight = 1
 [[params.social]]
 title = "Twitter"
 icon = "fab fa-twitter"
-url = "https://www.twitter.com/"
+url = "https://twitter.com/yifei_cc"
 weight = 1
+
 [[params.social]]
-title = "Dribbble"
-icon = "fab fa-dribbble"
-url = "https://www.dribbble.com/"
+title = "Weibo"
+icon = "fab fa-weibo"
+url = "https://weibo.com/liuyifeiofficial"
 weight = 2
-[[params.social]]
-title = "Behance"
-icon = "fab fa-behance"
-url = "https://www.behance.net/"
-weight = 3
+
+
 
 # Sidebar
 [params.sidebar]
@@ -141,19 +111,19 @@ tags = 1 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
 
 # Portfolio Settings
 [params.portfolio]
-homeNumOfItems = 12
+homeNumOfItems = 64
 [[params.portfolio.filters]]
-name = "UI UX Design"
-slug = "ui-ux-design"
+name = "电影"
+slug = "movie"
 [[params.portfolio.filters]]
-name = "Photography"
-slug = "photography"
+name = "电视"
+slug = "tv"
 [[params.portfolio.filters]]
-name = "Development"
-slug = "development"
+name = "音乐"
+slug = "music"
 [[params.portfolio.filters]]
-name = "Branding"
-slug = "branding"
+name = "代言"
+slug = "endorsement"
 
 # Sitemap Settings
 [sitemap]

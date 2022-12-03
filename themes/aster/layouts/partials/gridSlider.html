@@ -8,7 +8,7 @@
       {{ range .slides }}
       <div class="swiper-slide">
         <div class="works-slide">
-          <a href="work-single.html">
+          <a href="{{ .link }}">
             <span class="image">
               <span class="img">
                 <span class="slide" style="background-image: url({{ .image | absURL }});"></span>

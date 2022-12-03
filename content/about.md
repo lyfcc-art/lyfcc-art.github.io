@@ -1,14 +1,9 @@
 ---
-title: About
+title: 关于
 builder: true
 sections:
   - headingSection
   - parallaxSection
   - descriptionSection
-  - serviceSection
-  - listSection
-  - videoSection
   - teamSection
-  - testimonialSection
-  - clientsSection
 ---

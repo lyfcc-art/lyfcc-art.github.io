@@ -1,5 +1,5 @@
 ---
 title: Home
 sections:
-  - mainSlider
+  - gridSlider
 ---

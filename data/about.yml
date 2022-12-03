@@ -6,132 +6,49 @@
 ### Parallax [parallaxSection]
 parallax:
   enable: 1
-  image: "/images/about2.jpg"
+  image: "/images/about/quo.jpg"
 
 ### Description [ descriptionSection ]
 description:
   enable: 1
-  title: "We are startup<br />digital agency"
+  title: "缘由"
   column1: "
-    A Los Angeles based studio building handcrafted websites and brands for companies and all over the world. It is not enough that we build products that function, that are understandable and usable, we also need to build products that bring joy and excitement, pleasure and fun, and, yes, beauty to people’s lives. Creativity is to discover a question that has never been asked. If one brings up an idiosyncratic questionl.
-  "
+很多时候，我在看到她的照片或视频的时候，心里并没有去想她到底有多美。从少年时期就喜欢上的人，这么久的时间，好像一切都太熟悉了。只是偶尔，当我无所事事的时候，偶然间会看到她一张很日常的照片，才会突然意识到，她是真真切切地存在，并且是这样美的不可方物。
+     "
   column2: "
-    The development of digital marketing is inseparable from technology development. One of the first key events happened in 1971, when Ray Tomlinson sent the first email, and his technology set the platform to allow people to send and receive files through different machines. However, the more recognizable period as being the start of Digital Marketing is 1990 as this was where the Archie search engine was created as an index for FTP sites.
+  夫人之相与，俯仰一世。这个地方或者就是当下那个最适合“因寄所托”的存在了。我觉得自己很幸运，朋友来来去去，但有这么一个比我优秀，可以让我仰望的存在。我想记录这一切，因为这是一件很让人开心的事情。或许也是能让很多类似我的人开心的事情。 <br>
+
+青山一道同风雨，明月何曾是两乡。
+
   "
 
-### Services [ servicesSection ]
-services:
-  enable: 1
-  title: "Our services"
-  items:
-    - title: "Marketing"
-      icon: "fas fa-chart-bar"
-      text: "Focused on creating, publishing, and distributing content for a targeted audience online."
-
-    - title: "Copywriting"
-      icon: "fas fa-copyright"
-      text: "Act or occupation of writing text for the purpose of advertising or other forms of marketing."
-
-    - title: "Web Design"
-      icon: "far fa-object-group"
-      text: "Design process relating to the front-end (client side) design of a website including writing."
-
-    - title: "Advertising"
-      icon: "fas fa-ad"
-      text: "Employs an openly sponsored, non-personal message to promote or sell a product, service."
-
-    - title: "Optimization"
-      icon: "fas fa-rocket"
-      text: "Improving the quality and quantity of website traffic to a website or a web page from search."
-
-    - title: "Support"
-      icon: "far fa-life-ring"
-      text: "Services to assist customers in making cost effective and correct use of a product."
-
-### List [ listSection ]
-list:
-  enable: 1
-  title: "Our vision"
-  items:
-    - num: "01."
-      text: "Search Engine Optimization"
-
-    - num: "02."
-      text: "Search Engine Marketing"
-
-    - num: "03."
-      text: "Website Strategy and Social Media Marketing"
-
-    - num: "04."
-      text: "Content Generation and Optimization"
-
-### Video [ videoSection ]
-video:
-  enable: 1
-  image: "/images/started-n7.jpg"
-  video_id: "Gu6z6kIukgg"
 
 ### Team [ teamSection ]
 team:
   enable: 1
-  title: "Meet the team"
+  title: "贡献人员"
   items:
-    - name: "Natasha Singh"
-      subname: "Founder"
-      image: "/images/team5.jpg"
+    - name: "涯余"
+      subname: "网站维护，更新，信息搜集"
+      image: "/images/team-yayu.jpg"
 
-    - name: "Robert Long"
-      subname: "Co-founder"
-      image: "/images/team1.jpg"
+    - name: "美芽"
+      subname: "信息整理，核对"
+      image: "/images/team-meiya.jpg"
 
-    - name: "Viktoria Freeman"
-      subname: "Designer"
-      image: "/images/team2.jpg"
+    - name: "云间月"
+      subname: "图片搜集"
+      image: "/images/team-yun.jpg"
+    - name: "爱海鲜的粥"
+      subname: "图片搜集"
+      image: "/images/team-zhou.jpg"
+    - name: "安风"
+      subname: "信息整理"
+      image: "/images/gallery/red.JPG"
 
-### Testimonial [ testimonialSection ]
-testimonial:
-  enable: 1
-  title: "Our testimonials"
-  items:
-    - name: "John Smith"
-      subname: "Designer"
-      image: "/images/rev1.png"
-      text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
 
-    - name: "Natasha Singh"
-      subname: "Photographer"
-      image: "/images/rev3.png"
-      text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
 
-    - name: "Gray Woodman"
-      subname: "Bloger"
-      image: "/images/rev2.png"
-      text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
 
-    - name: "Robert Long"
-      subname: "Photographer"
-      image: "/images/rev4.png"
-      text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
-
-### Clients [ clientsSection ]
-clients:
-  enable: 1
-  items:
-    - title: "Company"
-      image: "/images/brand_logo_03_1.png"
-      link: ""
-
-    - title: "Company"
-      image: "/images/brand_logo_08_1.png"
-      link: ""
-
-    - title: "Company"
-      image: "/images/brand_logo_06_1.png"
-      link: ""
-
-    - title: "Company"
-      image: "/images/brand_logo_05_1.png"
-      link: ""
 
 ### Cotacts [ contactSection ]
 contacts:
