@@ -150,7 +150,7 @@ blur_slider:
       subtitle: "全球品牌代言人 (2015-)"
       link: "/portfolio/tissot"
       image: "images/brand/tissot/cover-slide.JPG"
-    - title: "尚美巴黎"
+    - title: "CHAUMET"
       subtitle: "品牌大使，冠冕大使 (2019-2021)"
       link: "/portfolio/chaumet"
       image: "images/brand/chaumet/cover-slide.JPG"
@@ -232,3 +232,9 @@ disp_slider:
       subtitle: "日语专辑"
       link: "/portfolio/all-my-words/"
       image: "images/music/all-my-words/slide.jpg"
+
+
+    - title: "单曲"
+      subtitle: "电影插曲等"
+      link: "/portfolio/music-other/"
+      image: "images/music/sing/main.jpg"

@@ -1,5 +1,5 @@
 ---
-title: 尚美巴黎
+title: CHAUMET
 category: 代言
 category_slug: endorsement
 image: images/brand/chaumet/theme.JPG
