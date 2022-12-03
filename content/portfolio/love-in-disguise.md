@@ -3,7 +3,7 @@
 title: 恋爱通告
 category: 电影
 category_slug: movie
-image: images/gallery/zouyu.jpg
+image: images/gallery/zouyu-2.jpg
 
 # full details
 full_image: images/qing/main.jpg
