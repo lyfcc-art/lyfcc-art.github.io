@@ -3,7 +3,7 @@ title: 金粉世家
 category: 电视
 category_slug: tv
 
-image: images/bai/theme.JPG
+image: images/bai/mid-1.jpg
 
 full_image: images/bai/main.jpg
 
@@ -33,8 +33,8 @@ description1:
 gallery:
   enable: true
   images:
-    - images/bai/mid-1.jpg
     - images/bai/mid-2.jpg
+    - images/bai/mid-3.jpg
 
 
 description2:
