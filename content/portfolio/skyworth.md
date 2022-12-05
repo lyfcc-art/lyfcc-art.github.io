@@ -3,7 +3,7 @@
 title: 创维
 category: 代言
 category_slug: endorsement
-image: images/brand/skyworth/list.JPG
+image: images/brand/skyworth/list.jfif
 
 
 # full details

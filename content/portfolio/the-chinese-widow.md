@@ -37,8 +37,8 @@ description1:
 gallery:
   enable: true
   images:
-    - images/ying/mid-1.JPG
-    - images/ying/mid-2.JPG
+    - images/ying/mid-1.jfif
+    - images/ying/mid-2.jfif
 
 
 description2:
@@ -62,7 +62,7 @@ carousel:
   enable: true
   images:
     - images/ying/end-1.JPG
-    - images/ying/end-2.JPG
+    - images/ying/end-2.jfif
     - images/ying/end-3.JPG
 
 ---

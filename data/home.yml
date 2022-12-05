@@ -49,7 +49,7 @@ grid_slider:
     - title: "烽火芳菲"
       subtitle: "2017"
       link: "/portfolio/the-chinese-widow"
-      image: "images/ying/slide.JPG"
+      image: "images/ying/slide.jfif"
 
     - title: "三生三世十里桃花"
       subtitle: "2017"
@@ -131,7 +131,7 @@ blur_slider:
     - title: "创维集团"
       subtitle: "全球品牌代言人 (2022-)"
       link: "/portfolio/skyworth/"
-      image: "images/brand/skyworth/cover-slide.JPG"
+      image: "images/brand/skyworth/cover-slide.jfif"
     - title: "LOUIS VUITTON"
       subtitle: "品牌代言人 (2021-)"
       link: "/portfolio/lv"
@@ -153,7 +153,7 @@ blur_slider:
     - title: "CHAUMET"
       subtitle: "品牌大使，冠冕大使 (2019-2021)"
       link: "/portfolio/chaumet"
-      image: "images/brand/chaumet/cover-slide.JPG"
+      image: "images/brand/chaumet/cover-slide.jfif"
 
 
 ### half Slider [ halfSlider ]
