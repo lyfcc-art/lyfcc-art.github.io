@@ -1,0 +1,71 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Parallax [parallaxSection]
+parallax:
+  enable: 1
+  image: "/images/about/quo.jpg"
+
+### Description [ descriptionSection ]
+description:
+  enable: 1
+  title: "缘由"
+  column1: "
+很多时候，我在看到她的照片或视频的时候，心里并没有去想她到底有多美。从少年时期就喜欢上的人，这么久的时间，好像一切都太熟悉了。只是偶尔，当我无所事事的时候，偶然间会看到她一张很日常的照片，才会突然意识到，她是真真切切地存在，并且是这样美的不可方物。
+     "
+  column2: "
+  夫人之相与，俯仰一世。这个地方或者就是当下那个最适合“因寄所托”的存在了。我觉得自己很幸运，朋友来来去去，但有这么一个比我优秀，可以让我仰望的存在。我想记录这一切，因为这是一件很让人开心的事情。或许也是能让很多类似我的人开心的事情。 <br>
+
+青山一道同风雨，明月何曾是两乡。
+
+  "
+
+
+### Team [ teamSection ]
+team:
+  enable: 1
+  title: "贡献人员"
+  items:
+    - name: "涯余"
+      subname: "网站维护，更新，信息搜集（also 婧仪fans）"
+      image: "/images/team-yayu.jpg"
+
+    - name: "美芽"
+      subname: "信息整理，核对"
+      image: "/images/team-meiya.jpg"
+
+    - name: "云间月"
+      subname: "图片搜集"
+      image: "/images/team-yun.jpg"
+    - name: "爱海鲜的粥"
+      subname: "图片搜集（also 黄龄fans）"
+      image: "/images/team-zhou.jpg"
+    - name: "当然是录录子"
+      subname: "宣传"
+      image: "/images/team-lu.jpg"
+    - name: "安风"
+      subname: "信息整理"
+      image: "/images/team-feng.jpg"
+
+
+
+
+
+### Cotacts [ contactSection ]
+contacts:
+  enable: 1
+  title: "Contact info"
+  items:
+    - title: "Phone:"
+      icon: "fas fa-phone-alt"
+      text: "+1 (800) 123 56 89"
+
+    - title: "E-mail:"
+      icon: "fas fa-at"
+      text: "aster@domain.com"
+
+    - title: "Location:"
+      icon: "fab fa-font-awesome-flag"
+      text: "Marollem St. 32, New York, USA."

@@ -1,0 +1,157 @@
+# General Settings
+title = "刘亦菲"
+baseURL = "https://lyfcc.art" #YOUR SITE URL
+languageCode = "en-us"
+theme = "aster"
+resourceDir = "resources"
+paginate = 4
+summaryLength = 20
+DefaultContentLanguage = "en"
+
+# Menu Settings
+[menu]
+[[menu.main]]
+  identifier = "home"
+  name = "作品"
+  url = "/"
+  weight = 1
+  [[menu.main]]
+    identifier = "home-parallax"
+    parent = "home"
+    name = "音乐"
+    url = "/home-music"
+    weight = 4
+  [[menu.main]]
+    identifier = "home-half"
+    parent = "home"
+    name = "电视"
+    url = "/home-tv/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "home-moive"
+    parent = "home"
+    name = "电影"
+    url = "/home-movie/"
+    weight = 2
+  [[menu.main]]
+    identifier = "home-blur"
+    name = "代言"
+    url = "/home-blur/"
+    weight = 5
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 8
+  [[menu.main]]
+    identifier = "works-gallery"
+    name = "图集"
+    url = "/gallery/"
+    weight = 6
+
+[[menu.main]]
+  identifier = "timeline"
+  name = "历程"
+  url = "timeline/"
+  weight = 8
+
+[[menu.main]]
+  identifier = "blog"
+  name = "博文"
+  url = "/blog/"
+  weight = 7
+
+
+# Main Settings
+[params]
+dateFormat = "January 2, 2006"
+authorName = "CC Fans"
+disqusComments = "" #YOUR DISQUS COMMENTS SHORTNAME
+formspreeURL = "https://formspree.io/f/hang.yan@hotmail.com" #YOUR FORMSPREE URL
+googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
+
+# Preloader Settings
+[params.preloader]
+logo = "images/logo.png"
+
+# Header Settings
+[params.header]
+logo = "images/logo.png"
+
+# Footer Settings
+[params.footer]
+copyright = "Copyright © 2022 涯余"
+
+
+col3_title = "联系"
+col3_text = "lyfcc_art@163.com"
+
+# Social Settings
+[[params.social]]
+title = "Instagram"
+icon = "fab fa-instagram"
+url = "https://www.instagram.com/yifei_cc/?hl=en"
+weight = 1
+[[params.social]]
+title = "Twitter"
+icon = "fab fa-twitter"
+url = "https://twitter.com/yifei_cc"
+weight = 1
+
+[[params.social]]
+title = "Weibo"
+icon = "fab fa-weibo"
+url = "https://weibo.com/liuyifeiofficial"
+weight = 2
+
+
+
+# Sidebar
+[params.sidebar]
+enable = 1 #SIDEBAR SHOW: [ 1 - yes, 0 - no ]
+search = 1 #SIDEBAR SEARCH WIDGET: [ 1 - yes, 0 - no ]
+latestPosts = 1 #SIDEBAR LATEST POSTS WIDGET: [ 1 - yes, 0 - no ]
+categories = 1 #SIDEBAR CATEGORIES TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+tags = 1 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+
+# Portfolio Settings
+[params.portfolio]
+homeNumOfItems = 64
+[[params.portfolio.filters]]
+name = "电影"
+slug = "movie"
+[[params.portfolio.filters]]
+name = "电视"
+slug = "tv"
+[[params.portfolio.filters]]
+name = "音乐"
+slug = "music"
+[[params.portfolio.filters]]
+name = "代言"
+slug = "endorsement"
+
+# Sitemap Settings
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params.valine]
+  enable = true
+  appId = 'oBt546g1sZSe8k5AAqrPALMu-gzGzoHsz'
+  appKey = 'TLPMmLOkdoUsDSsr25BSYza6'
+  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = false # Verification code
+  avatar = 'mm'
+  placeholder = '说点什么吧...'
+  visitor = true

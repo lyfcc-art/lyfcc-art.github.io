@@ -1,0 +1,240 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Main Slider [ mainSlider ]
+main_slider:
+  enable: true
+  slides:
+
+
+    - title: "梦华录"
+      subtitle: "TV Show"
+      description: "
+        《梦华录》是由杨阳执导，刘亦菲、陈晓、柳岩、林允领衔主演，徐海乔、代旭、张晓谦主演，王洛勇、保剑锋特邀主演，姚安濂、杜玉明、刘亚津、刘伟等联合出演的女性古装励志剧，于2022年6月2日在腾讯视频播出。
+该剧根据关汉卿元杂剧《赵盼儿风月救风尘》改编，讲述了赵盼儿、宋引章、孙三娘经历各种困境，携手勇闯东京，并在皇城司指挥使顾千帆的帮助下，最终姐妹齐心，通过自己的努力将小茶坊变成东京最大酒楼的故事。
+      "
+      link: "/portfolio/menghualu/"
+      image: images/meng/cover.jpg
+      # image: "images/started-n15-1920x1080.jpg"
+
+    - title: "Mulan"
+      subtitle: "Movie"
+      description: "
+        《花木兰》（英语：Mulan）是一部2020年美国古装战争动作电影，由妮基·卡罗执导，伊丽莎白·马丁、劳伦·海内克、里克·杰法及阿曼达·西尔沃编剧。该片由华特迪士尼影片公司出资制作，为1998年同名动画电影的真人翻拍版，其内容改编自中国民间传说，主要描述一位名为花木兰的女子代父从军的巾帼英雄故事。主角花木兰由刘亦菲饰演，亦包括甄子丹、李截、安柚鑫、巩俐和李连杰等人演出。
+      "
+      link: "/portfolio/mulan/"
+      image: "images/mulan/cover-final.JPG"
+
+    - title: "神雕侠侣"
+      subtitle: "TV Show"
+      description: "
+       《神雕侠侣》（英语：The Return of the Condor Heroes）是一部2006年首播的中国大陆古装武侠剧，改编自香港著名作家金庸所著同名武侠小说《神雕侠侣》。该剧由北京慈文影视制作有限公司出品，知名导演于敏执导，著名电视制片人张纪中制作，并由黄晓明、刘亦菲、王洛勇、孔琳、孟广美、陈紫函等主演。
+      "
+      link: "/portfolio/the-dance/"
+      image: "images/long/cover-main.JPG"
+
+
+
+### Grid Slider [ gridSlider ]
+grid_slider:
+  enable: true
+  slides:
+    - title: "Mulan"
+      subtitle: "2020"
+      link: "/portfolio/mulan/"
+      image: "images/mulan/cover-864x1280.jpg"
+
+    - title: "烽火芳菲"
+      subtitle: "2017"
+      link: "/portfolio/the-chinese-widow"
+      image: "images/ying/slide.JPG"
+
+    - title: "三生三世十里桃花"
+      subtitle: "2017"
+      link: "/portfolio/4s/"
+      image: "images/ssss/cover-1080x1727.jpg"
+
+
+
+
+    - title: "二代妖精之今生有幸"
+      subtitle: "2017"
+      link: "/portfolio/beast/"
+      image: "images/fox/cover.JPG"
+
+    - title: "夜孔雀"
+      subtitle: "2016"
+      link: "/portfolio/elsa/"
+      image: "images/sha/slide.JPG"
+
+    - title: "第三种爱情"
+      subtitle: "2015"
+      link: "/portfolio/zouyu"
+      image: "images/xuan/theme.JPG"
+
+    - title: "白幽灵传奇之绝命逃亡"
+      subtitle: "2015"
+      link: "/portfolio/lian"
+      image: "images/theme/princess.JPG"
+
+    - title: "露水红颜"
+      subtitle: "2014"
+      link: "/portfolio/xinglu"
+      image: "images/lu/slide.jpg"
+
+    - title: "四大名捕三部曲"
+      subtitle: "2012-2014"
+      link: "/portfolio/the-four"
+      image: "images/yayu/slide.JPG"
+
+
+    - title: "铜雀台"
+      subtitle: "2012"
+      link: "/portfolio/diaochan"
+      image: "images/chan/slide.JPG"
+    - title: "鸿门宴传奇"
+      subtitle: "2011"
+      link: "/portfolio/hongmenyan/"
+      image: "images/yuji/cover-1066x1600.JPG"
+
+    - title: "倩女幽魂"
+      subtitle: "2011"
+      image: "images/qian/slide.JPG"
+      link: "/portfolio/qian/"
+
+    - title: "恋爱通告"
+      subtitle: "2010"
+      link: "/portfolio/love-in-disguise/"
+      image: "images/qing/cover-1000x1261.JPG"
+
+
+
+    - title: "功夫之王"
+      subtitle: "2008"
+      link: "/portfolio/the-forbidden-kingdom/"
+      image: "images/king/m-2.JPG"
+
+    - title: "五月之恋"
+      subtitle: "2004"
+      link: "/portfolio/may"
+      image: "images/xuan/slide-2.jpg"
+
+
+
+### blur Slider [ blurSlider ]
+blur_slider:
+  enable: true
+  slides:
+
+    - title: "创维集团"
+      subtitle: "全球品牌代言人 (2022-)"
+      link: "/portfolio/skyworth/"
+      image: "images/brand/skyworth/cover-slide.JPG"
+    - title: "LOUIS VUITTON"
+      subtitle: "品牌代言人 (2021-)"
+      link: "/portfolio/lv"
+      image: "images/brand/lv/slide.JPG"
+    - title: "资生堂"
+      subtitle: "全球品牌代言人 (2020-)"
+      link: "/portfolio/shiseido/"
+      image: "images/brand/shiseido/slide.JPG"
+
+    - title: "中国黄金"
+      subtitle: "品牌代言人 (2012-2022)"
+      link: "/portfolio/china-gold/"
+      image: "images/brand/china-gold/cover-slide.jpg"
+
+    - title: "TISSOT"
+      subtitle: "全球品牌代言人 (2015-)"
+      link: "/portfolio/tissot"
+      image: "images/brand/tissot/cover-slide.JPG"
+    - title: "CHAUMET"
+      subtitle: "品牌大使，冠冕大使 (2019-2021)"
+      link: "/portfolio/chaumet"
+      image: "images/brand/chaumet/cover-slide.JPG"
+
+
+### half Slider [ halfSlider ]
+### 电视相关
+half_slider:
+  enable: true
+  slides:
+
+    - title: "去有风的地方"
+      subtitle: "2023"
+      description: "由《以家人之名》原班制作团队操刀，是一部新颖的“田园剧”，治愈当代都市人的焦虑，由华策出品，总制片人为龙亚，导演为丁梓光，编剧为水阡墨和王雄成，共40集，暂定2023年播出。"
+      link: "/portfolio/feng"
+      image: "images/feng/slide.JPG"
+
+    - title: "梦华录"
+      subtitle: "2022"
+      description: "
+       《梦华录》（英语：A Dream of Splendor），为据关汉卿原著《赵盼儿风月救风尘》改编的2022年中国大陆古装剧。由杨阳执导，张巍编剧，刘亦菲、陈晓、柳岩、林允、徐海乔、代旭 领衔主演。
+      "
+      link: "/portfolio/menghualu/"
+      image: "images/meng/cover-1080x1080.jpg"
+
+    - title: "一曲三笙"
+      subtitle: "NOT FOUND"
+      description: "该剧根据壳小杀和左小翎联合创作漫画《南烟斋笔录》改编，讲述都市白领唐曼在事业与爱情皆遭遇重创后，回到老家休假疗伤期间发现一本残旧的书稿的故事。"
+      link: "/portfolio/404"
+      image: "images/tv/sheng.jpg"
+
+    - title: "神雕侠侣"
+      subtitle: "2006"
+      description: "
+        知名导演于敏执导，著名电视制片人张纪中制作，并由黄晓明、刘亦菲、王洛勇、孔琳、孟广美、陈紫函、杨幂等主演。与之前的诸多改编版本不同，本剧基于2003年出版的世纪新修版拍摄。剧情上承接《射雕英雄传》，以南宋末年为背景，讲述了杨康之子杨过从小叛逆，在叛出师门后被小龙女收留为徒，两人随后历经种种磨难暗生情愫，虽面临世俗众人的压力仍打破封建桎梏结为连理，最终在修得一身绝世武功的同时成为一对神仙眷侣。
+      "
+      link: "/portfolio/long/"
+      image: "images/long/slide.jpg"
+
+    - title: "仙剑奇侠传"
+      subtitle: "2005"
+      description: "
+        胡歌、刘亦菲、安以轩、刘品言、彭于晏领衔主演。全剧讲述余杭镇盛渔村出身的男主人公李逍遥因机缘巧合结识流落中原的南诏公主赵灵儿，在护送其回苗疆寻母的旅途中斩妖除魔、历经艰险，最终合力击败控制南诏国的拜月教主，解救了国家和人民。
+      "
+      link: "/portfolio/ling/"
+      image: "images/ling/cover-1080x1080.jpg"
+
+    - title: "天龙八部"
+      subtitle: "2003"
+      description: "
+        该剧由江苏广播电视总台和九洲音像出版公司联合摄制，知名导演周晓文、鞠觉亮、于敏、赵箭联合执导，著名电视制片人张纪中制作，并由胡军、林志颖、高虎、刘亦菲、陈好、刘涛等领衔主演。本剧与之前的诸多改编版本一样基于小说第二版（大陆称为三联版）拍摄，全剧以北宋时期为背景，讲述了丐帮帮主乔峰、大理国王子段誉、少林寺弟子虚竹三人因缘际会之下结义为兄弟，在经历了诸多事变之后，乔峰发现了自己的身世秘密，为阻止辽国伐宋而自尽；本不喜拳脚的段誉练成一身绝世武功，在父母双亡后回国继承皇位；虚竹则获多位前辈高人传授武功，脱离少林后成为西夏驸马和逍遥派掌门。
+      "
+      link: "/portfolio/yuyan/"
+      image: "images/yan/cover-square.jpg"
+
+    - title: "金粉世家"
+      subtitle: "2003"
+      description: "《金粉世家》是由李大为执导，陈坤、董洁、刘亦菲、徐露领衔主演的民国爱情剧。该剧根据张恨水的同名小说改编，讲述了二十世纪二十年代，北洋军阀内阁总理之子金燕西和清贫女子冷清秋之间的爱情故事。"
+      link: "/portfolio/bai/"
+      image: "images/bai/cover-re.jpg"
+
+
+
+### Disp Slider [ dispSlider ]
+disp_slider:
+  enable: true
+  slides:
+    - title: "Reflection"
+      subtitle: "电影英文原声"
+      link: "/portfolio/reflection/"
+      image: "images/music/cover-1-1920x1080.JPG"
+
+    - title: "刘亦菲"
+      subtitle: "国语专辑"
+      link: "/portfolio/liuyifei/"
+      image: "images/music/liuyifei/slide.jpg"
+
+    - title: "All my words"
+      subtitle: "日语专辑"
+      link: "/portfolio/all-my-words/"
+      image: "images/music/all-my-words/slide.jpg"
+
+
+    - title: "单曲"
+      subtitle: "电影插曲等"
+      link: "/portfolio/music-other/"
+      image: "images/music/sing/main.jpg"

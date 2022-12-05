@@ -1,0 +1,121 @@
+{{ define "main" }}
+{{ $dateFormat := .Site.Params.dateFormat }}
+
+<!-- Section Started Heading -->
+<div class="section section-inner started-heading">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+				<!-- titles -->
+				<div class="m-titles">
+					<div class="m-category splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+						{{ if .Params.categories }}
+            {{ range (.GetTerms "categories") }}
+            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+            {{ end }}
+            {{ end }}
+						<em> / {{ .PublishDate.Format $dateFormat }}</em>
+						<span> / {{ i18n "by" }} <span class="author">{{ .Params.author }}</span></span>
+					</div>
+					<div class="m-title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+						{{ .Title }}
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Section Image Large -->
+<div class="section section-inner m-image-large">
+	<div class="image">
+		{{ with .Params.fullImage }}
+		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url({{ . | absURL }});"></div>
+		{{ else }}
+		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url({{ .Params.featureImage | absURL }});"></div>
+		{{ end }}
+	</div>
+</div>
+
+<div class="section section-inner m-archive">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+
+				<div class="post-content">
+					{{ .Content }}
+				</div>
+
+				<div class="post-details">
+					{{ if .Params.tags }}
+					<span class="tags-links">
+						<span>{{ i18n "tags" }}:</span>
+						{{ range (.GetTerms "tags") }}
+						<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+						{{ end }}
+					</span>
+					{{ end }}
+
+					<div class="share-post social-share" data-title="{{ .Title }}" data-url="{{ .Permalink | absURL }}">
+						<span>{{ i18n "share" }}:</span>
+						<a class="share-btn share-btn-facebook share-btn-1" title="{{ i18n "shareOn" }} Facebook">
+								<i class="fab fa-facebook"></i>
+						</a>
+						<a class="share-btn share-btn-twitter share-btn-2" title="{{ i18n "shareOn" }} Twitter">
+								<i class="fab fa-twitter"></i>
+						</a>
+						<a class="share-btn share-btn-linkedin share-btn-3" title="{{ i18n "shareOn" }} Linkedin">
+								<i class="fab fa-linkedin"></i>
+						</a>
+						<a class="share-btn share-btn-reddit share-btn-4" title="{{ i18n "shareOn" }} Reddit">
+								<i class="fab fa-reddit"></i>
+						</a>
+						<a class="share-btn share-btn-pinterest share-btn-5" title="{{ i18n "shareOn" }} Pinterest">
+								<i class="fab fa-pinterest"></i>
+						</a>
+					</div>
+
+				</div>
+
+                                <div class="post-comment">
+
+                                  <!-- 加入评论功能 -->
+
+                                  {{ partial "comment.html" . }}
+                                </div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+{{ if or .NextInSection .PrevInSection }}
+
+{{ "<!-- Navigation -->" | safeHTML }}
+<div class="section section-inner m-page-navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-2">
+				<div class="h-titles h-navs">
+					{{ if .NextInSection }}
+					<a href="{{ .NextInSection.Permalink }}">
+						<span class="nav-arrow scrolla-element-anim-1 scroll-animate" data-animate="active">{{ i18n "nextProject" }}</span>
+						<span class="h-title splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active">{{ .NextInSection.Title }}</span>
+					</a>
+					{{ else }}
+					<a href="{{ .PrevInSection.Permalink }}">
+						<span class="nav-arrow scrolla-element-anim-1 scroll-animate" data-animate="active">{{ i18n "prevProject" }}</span>
+						<span class="h-title splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active">{{ .PrevInSection.Title }}</span>
+					</a>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{{ end }}
+
+{{ end }}
