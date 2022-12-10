@@ -1,7 +1,7 @@
 ---
 title: "刘亦菲给仙居的信"
 date: 2022-11-20T12:49:27+06:00
-featureImage:  images/yuji/cover-1920x1080.jpg
+featureImage:  images/blog/fei-1.jpg
 author: 涯余
 tags:
 - 刘亦菲

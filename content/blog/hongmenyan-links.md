@@ -1,7 +1,7 @@
 ---
 title: "《鸿门宴传奇》资料索引"
 date: 2022-11-28T12:49:27+06:00
-featureImage: images/yuji/cover-1920x1080.jpg
+featureImage: images/yuji/main.jpg
 tags:
 - 电影
 - 索引
